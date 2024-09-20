@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>PSACalls</id>
+    <version>1.0.1</version>
+    <authors>Kas Michta</authors>
+    <description>PowerShell Wrapper Module for CW PSA API</description>
+    <copyright>(c) Kas Michta.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/KasMichta/PSACalls/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/KasMichta/PSACalls</projectUrl>
+  </metadata>
+</package>
