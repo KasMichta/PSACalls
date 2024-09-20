@@ -62,6 +62,9 @@ task Test {
         TestResult = @{
             Enabled = $true
         }
+        Output = @{
+            Verbosity = 'Detailed'
+        }
     }
 
     Invoke-Pester -Configuration $config
