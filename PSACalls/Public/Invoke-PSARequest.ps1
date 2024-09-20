@@ -1,7 +1,12 @@
 Function Invoke-PSARequest {
     [cmdletbinding()]
     Param (
-        $method = 'GET'
+        [validateset('GET', 'POST', 'PUT', 'PATCH', 'DELETE')]
+        $method = 'GET',
+        [parameter(Mandatory)]
+        [string]$uri,
+        [hashtable]$headers,
+        [string[]]$body
     )
 
     begin {
