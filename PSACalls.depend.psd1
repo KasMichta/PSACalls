@@ -1,10 +1,14 @@
 @{
     Pester = @{
         Target = 'CurrentUser'
-        Version = latest
+        Version = 'latest'
     }
     PSScriptAnalyzer = @{
         Target = 'CurrentUser'
-        Version = latest
+        Version = 'latest'
+    }
+    PlatyPS = @{
+        Target = 'CurrentUser'
+        Version = 'latest'
     }
 }
