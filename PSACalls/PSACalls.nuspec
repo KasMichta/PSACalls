@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>PSACalls</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <authors>Kas Michta</authors>
     <description>PowerShell Wrapper Module for CW PSA API</description>
     <copyright>(c) Kas Michta.</copyright>
