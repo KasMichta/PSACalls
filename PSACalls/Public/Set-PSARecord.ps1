@@ -3,7 +3,7 @@ Function Set-PSARecord {
     param (
         [ArgumentCompleter({
                 param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-                Get-ValidPSAEndpoint -type $wordToComplete -method 'get'
+                Get-ValidPSAEndpoint -type $wordToComplete -method 'patch'
             })]
         [string]$type,
         [Parameter(ValueFromPipelineByPropertyName)]
