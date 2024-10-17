@@ -10,16 +10,36 @@ Describe "'Get-ValidPSAEndpoint' Function Tests" {
             '{
                 "service": {
                     "tickets":{
-                        "{id}":{}
+                        "{id}":{},
+                        "briskets":{
+                            "methods":[
+                                "get",
+                                "post"
+                            ]
+                        },
+                        "methods":[
+                            "get",
+                            "post"
+                        ]
                     }
                 },
                 "system":{
-                    "members":{},
-                    "myMembers":{}
+                    "members":{
+                        "methods":[
+                            "get",
+                            "post"
+                        ]},
+                    "myMembers":{
+                        "info": {},
+                        "methods":[
+                            "get"
+                        ]
+                    }
                 }
             }'
         }
     }
+
     Context "'/' character" {
         It "Should return all root level endpoints" {
             $type = '/'
@@ -27,6 +47,7 @@ Describe "'Get-ValidPSAEndpoint' Function Tests" {
             $result | Should -Be '/service', '/system'
         }
     }
+
     Context "Partial root-level match" {
         It "Should return the matching endpoint when only one match" {
             $type = 'serv'
@@ -39,6 +60,7 @@ Describe "'Get-ValidPSAEndpoint' Function Tests" {
             $result | Should -Be '/service', '/system'
         }
     }
+
     Context "Full root-level match" {
         It "Should return the matching endpoint" {
             $type = 'system'
@@ -71,6 +93,37 @@ Describe "'Get-ValidPSAEndpoint' Function Tests" {
             $type = '/system/members'
             $result = Get-ValidPSAEndpoint -type $type
             $result | Should -Be "'/system/members'", "'/system/myMembers'"
+        }
+    }
+
+    Context "Specified method parameter" {
+        It "Should return only endpoints with the specified method" {
+            $type = '/system/'
+            $method = 'post'
+            $result = Get-ValidPSAEndpoint -type $type -method $method
+            $result | Should -Be "'/system/members'"
+
+
+            $type = '/service/'
+            $method = 'post'
+            $result = Get-ValidPSAEndpoint -type $type -method $method
+            $result | Should -Be "'/service/tickets'", "'/service/tickets/briskets'"
+        }
+    }
+
+    Context "Partial match to nested endpoints" {
+        It "Should return all matching endpoints" {
+            $type = '/service/kets'
+            $result = Get-ValidPSAEndpoint -type $type
+            $result | Should -Be "'/service/tickets'", "'/service/tickets/briskets'"
+        }
+    }
+
+    Context "Invalid endpoint" {
+        It "Should return null" {
+            $type = '/service/invalid'
+            $result = Get-ValidPSAEndpoint -type $type
+            $result | Should -BeNullOrEmpty
         }
     }
 }

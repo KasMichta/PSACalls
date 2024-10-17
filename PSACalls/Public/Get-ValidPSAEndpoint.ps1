@@ -6,12 +6,15 @@ Function Find-ValidPath {
         $method
     )
 
-    $validPaths = New-Object System.Collections.Generic.List[string]
+    $validPaths = [System.Collections.Generic.List[string]]::new()
 
     foreach ($key in $($path.keys | Where-Object { $_ -ne 'methods' })) {
         $newParent = "$parent/$key"
-        if ($path[$key].methods -contains $method) {
-            $validPaths.Add("$parent/$key")
+
+        if ($path[$key].ContainsKey('methods')) {
+            if ($path[$key].methods -contains $method) {
+                $validPaths.Add("$parent/$key")
+            }
         }
         $childPaths = Find-ValidPath -path $path[$key] -parent $newParent -method $method
 
@@ -27,7 +30,8 @@ Function Get-ValidPSAEndpoint {
     [CmdletBinding()]
     param (
         [string]$type,
-        [string]$method
+        [string]$method = 'get',
+        [string]$schemaPath = '../PSASchemaTree.json'
     )
 
     # clean the input, no quotes or leading slashes
@@ -37,12 +41,12 @@ Function Get-ValidPSAEndpoint {
         $type = $type.Substring(1)
     }
 
-    $schemaPaths = Get-Content './dummyLocation' | ConvertFrom-Json -Depth 100 -AsHashtable
+    $paths = Get-Content $schemaPath | ConvertFrom-Json -Depth 100 -AsHashtable
 
     # check if the type is a root level endpoint
     if ( !($type.Contains('/')) -or $type -eq '/' ) {
 
-        $schemaPaths.keys | Where-Object { $_ -match $type } | ForEach-Object { "/$_" }
+        $paths.keys | Where-Object { $_ -match $type } | ForEach-Object { "/$_" }
 
     } else {
         $nodes = $type -split '/'
@@ -54,7 +58,7 @@ Function Get-ValidPSAEndpoint {
         $prefix = $nodes -join '/'
 
         # traverse the tree to find the endpoint
-        $current = $schemaPaths
+        $current = $paths
         foreach ($node in $nodes) {
             if ( !($current.ContainsKey($node)) ) {
                 throw "Invalid endpoint: $node"
