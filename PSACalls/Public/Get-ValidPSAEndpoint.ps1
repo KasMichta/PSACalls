@@ -31,7 +31,7 @@ Function Get-ValidPSAEndpoint {
     param (
         [string]$type,
         [string]$method = 'get',
-        [string]$schemaPath = '../PSASchemaTree.json'
+        [string]$schemaPath = (Split-Path -parent $PSScriptRoot) + '/schemaTree.json'
     )
 
     # clean the input, no quotes or leading slashes
