@@ -63,7 +63,7 @@ task Test {
             Enabled = $true
         }
         Output = @{
-            Verbosity = 'Detailed'
+            Verbosity = 'Normal'
         }
     }
 
