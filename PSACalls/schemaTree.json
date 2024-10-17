@@ -1,0 +1,2948 @@
+{
+  "marketing": {
+    "groups": {
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "companies": {
+          "{id}": {},
+          "count": {}
+        },
+        "contacts": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "campaigns": {
+      "subTypes": {
+        "{id}": {},
+        "count": {}
+      },
+      "{parentId}": {
+        "linksClicked": {
+          "{id}": {},
+          "count": {}
+        },
+        "audits": {
+          "{id}": {},
+          "count": {}
+        },
+        "formsSubmitted": {
+          "{id}": {},
+          "count": {}
+        },
+        "emailsOpened": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "types": {
+        "{id}": {
+          "info": {}
+        },
+        "{parentId}": {
+          "subTypes": {
+            "{id}": {},
+            "count": {}
+          }
+        },
+        "count": {},
+        "info": {
+          "count": {}
+        }
+      },
+      "statuses": {
+        "{id}": {},
+        "count": {}
+      },
+      "{id}": {
+        "opportunities": {
+          "count": {}
+        },
+        "activities": {
+          "count": {}
+        }
+      }
+    }
+  },
+  "service": {
+    "knowledgeBaseSubCategories": {
+      "{id}": {
+        "usages": {
+          "list": {}
+        }
+      },
+      "count": {}
+    },
+    "knowledgeBaseCategories": {
+      "{id}": {},
+      "count": {}
+    },
+    "templates": {
+      "count": {},
+      "{id}": {
+        "generate": {},
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "priority": {
+      "info": {},
+      "{id}": {
+        "info": {}
+      }
+    },
+    "knowledgebasesettings": {
+      "{id}": {}
+    },
+    "ticketSyncs": {
+      "{id}": {},
+      "count": {}
+    },
+    "knowledgeBaseArticles": {
+      "{id}": {},
+      "count": {}
+    },
+    "surveys": {
+      "count": {},
+      "{parentId}": {
+        "questions": {
+          "{id}": {
+            "copy": {}
+          },
+          "count": {}
+        },
+        "results": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "{id}": {
+        "usages": {
+          "list": {}
+        },
+        "copy": {}
+      },
+      "{grandparentId}": {
+        "questions": {
+          "{parentId}": {
+            "options": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        }
+      }
+    },
+    "locations": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "info": {
+      "boards": {
+        "count": {},
+        "{id}": {},
+        "active": {}
+      },
+      "boardtypes": {
+        "{id}": {},
+        "count": {}
+      }
+    },
+    "scheduling": {
+      "members": {
+        "info": {
+          "count": {}
+        },
+        "{id}": {
+          "info": {}
+        }
+      }
+    },
+    "codes": {
+      "{id}": {},
+      "count": {}
+    },
+    "SLAs": {
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "priorities": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "ticketLinks": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "severities": {
+      "{id}": {},
+      "count": {}
+    },
+    "tickets": {
+      "search": {},
+      "{parentId}": {
+        "merge": {},
+        "allNotes": {},
+        "tasks": {
+          "{id}": {},
+          "count": {}
+        },
+        "convert": {},
+        "notes": {
+          "{id}": {},
+          "count": {}
+        },
+        "scheduleentries": {
+          "count": {}
+        },
+        "activities": {
+          "count": {}
+        },
+        "documents": {
+          "count": {}
+        },
+        "timeentries": {
+          "count": {}
+        },
+        "attachChildren": {},
+        "products": {
+          "count": {}
+        },
+        "configurations": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "calculateSla": {},
+      "{id}": {
+        "info": {},
+        "copy": {}
+      },
+      "info": {
+        "count": {}
+      },
+      "changelogs": {}
+    },
+    "serviceSignoff": {
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "signoffcustomfields": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "priorities": {
+      "{id}": {
+        "image": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "count": {}
+    },
+    "teams": {
+      "{id}": {},
+      "count": {}
+    },
+    "sources": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "impacts": {
+      "{id}": {},
+      "count": {}
+    },
+    "boards": {
+      "count": {},
+      "{parentId}": {
+        "subtypes": {
+          "count": {},
+          "{id}": {
+            "info": {},
+            "usages": {
+              "list": {}
+            }
+          },
+          "info": {
+            "count": {}
+          }
+        },
+        "teams": {
+          "count": {},
+          "{id}": {
+            "info": {},
+            "usages": {
+              "list": {}
+            }
+          },
+          "info": {
+            "count": {}
+          }
+        },
+        "autoTemplates": {
+          "{id}": {},
+          "count": {}
+        },
+        "types": {
+          "{id}": {
+            "usages": {
+              "list": {}
+            }
+          },
+          "count": {}
+        },
+        "statuses": {
+          "count": {},
+          "{id}": {
+            "info": {},
+            "usages": {
+              "list": {}
+            }
+          },
+          "info": {
+            "count": {}
+          }
+        },
+        "notifications": {
+          "{id}": {},
+          "count": {}
+        },
+        "autoAssignResources": {
+          "{id}": {},
+          "count": {}
+        },
+        "excludedMembers": {
+          "{id}": {},
+          "count": {}
+        },
+        "typeSubTypeItemAssociations": {
+          "{id}": {},
+          "count": {}
+        },
+        "skillMappings": {
+          "count": {},
+          "{id}": {},
+          "": {}
+        },
+        "items": {
+          "{id}": {
+            "usages": {
+              "list": {}
+            }
+          },
+          "count": {}
+        }
+      },
+      "{id}": {
+        "usages": {
+          "list": {}
+        }
+      },
+      "copy": {},
+      "{grandparentId}": {
+        "items": {
+          "{parentId}": {
+            "associations": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        },
+        "statuses": {
+          "{parentId}": {
+            "notifications": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        }
+      }
+    },
+    "emailTemplates": {
+      "{id}": {
+        "usages": {
+          "list": {}
+        }
+      },
+      "count": {}
+    },
+    "teamMembers": {}
+  },
+  "procurement": {
+    "warehouseBins": {
+      "{id}": {
+        "info": {}
+      },
+      "{parentId}": {
+        "inventoryOnHand": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "invoicegrouping": {
+      "{id}": {
+        "usages": {
+          "list": {}
+        }
+      },
+      "count": {}
+    },
+    "shipmentmethods": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "directionalSyncs": {
+      "{id}": {},
+      "count": {}
+    },
+    "catalog": {
+      "{parentId}": {
+        "vendors": {
+          "{id}": {},
+          "{id}{id}": {}
+        },
+        "components": {
+          "{id}": {},
+          "count": {}
+        },
+        "minimumStockByWarehouse": {
+          "{id}": {},
+          "count": {}
+        },
+        "inventory": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "{id}": {
+        "pricing": {},
+        "copy": {},
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      },
+      "vendors": {
+        "{parentId}": {}
+      },
+      "{catalogItemIdentifier}": {
+        "quantityOnHand": {}
+      }
+    },
+    "types": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "unitOfMeasures": {
+      "{id}": {},
+      "{parentId}": {
+        "conversions": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "purchaseorderstatuses": {
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "emailtemplates": {
+          "count": {},
+          "{id}": {},
+          "": {}
+        },
+        "notifications": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "categories": {
+      "{id}": {
+        "info": {}
+      },
+      "{parentId}": {
+        "subcategories": {
+          "count": {},
+          "info": {
+            "count": {}
+          },
+          "{id}": {
+            "info": {}
+          },
+          "": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "changeorder": {
+      "{id}": {}
+    },
+    "rmaStatuses": {
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "emailtemplates": {
+          "count": {},
+          "{id}": {},
+          "": {}
+        },
+        "notifications": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "rmaTags": {
+      "count": {},
+      "{id}": {},
+      "default": {}
+    },
+    "pricingschedules": {
+      "count": {},
+      "{parentId}": {
+        "details": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "{id}": {},
+      "{grandparentId}": {
+        "details": {
+          "{parentId}": {
+            "breaks": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        }
+      }
+    },
+    "adjustments": {
+      "{id}": {},
+      "types": {
+        "count": {},
+        "{id}": {
+          "info": {},
+          "usages": {
+            "list": {}
+          }
+        },
+        "info": {
+          "count": {}
+        }
+      },
+      "{parentId}": {
+        "details": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "manufacturers": {
+      "count": {
+        "info": {}
+      },
+      "{id}": {
+        "info": {}
+      },
+      "info": {}
+    },
+    "warehouses": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "rmaActions": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "settings": {
+      "{id}": {},
+      "count": {}
+    },
+    "purchasingDemands": {},
+    "changeorders": {
+      "count": {}
+    },
+    "subcategories": {
+      "count": {},
+      "info": {
+        "count": {},
+        "": {}
+      },
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "": {}
+    },
+    "onhandserialnumbers": {
+      "{id}": {},
+      "count": {}
+    },
+    "products": {
+      "{id}": {
+        "detach": {}
+      },
+      "{parentId}": {
+        "pickingShippingDetails": {
+          "{id}": {},
+          "count": {}
+        },
+        "components": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "purchaseorders": {
+      "{id}": {
+        "copy": {},
+        "rebatch": {},
+        "quickAccess": {
+          "count": {}
+        },
+        "unbatch": {},
+        "info": {}
+      },
+      "{parentId}": {
+        "lineitems": {
+          "count": {},
+          "{id}": {},
+          "bulk": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "RMADispositions": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    }
+  },
+  "schedule": {
+    "calendars": {
+      "count": {},
+      "{id}": {
+        "copy": {},
+        "usages": {
+          "list": {}
+        },
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "holidayLists": {
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "copy": {},
+      "{parentId}": {
+        "holidays": {
+          "count": {},
+          "{id}": {
+            "info": {}
+          },
+          "info": {}
+        }
+      },
+      "count": {},
+      "info": {}
+    },
+    "statuses": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "reminderTimes": {
+      "{id}": {},
+      "count": {}
+    },
+    "colors": {
+      "count": {},
+      "{id}": {
+        "clear": {}
+      },
+      "reset": {}
+    },
+    "portalcalendars": {
+      "{id}": {},
+      "count": {}
+    },
+    "types": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "details": {
+      "{id}": {},
+      "count": {}
+    },
+    "entries": {
+      "{id}": {},
+      "{parentId}": {
+        "details": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    }
+  },
+  "finance": {
+    "accounting": {
+      "unpostedpayments": {
+        "{id}": {},
+        "count": {}
+      },
+      "unpostedinvoices": {
+        "{id}": {},
+        "{parentId}": {
+          "taxableLevels": {
+            "{id}": {},
+            "count": {}
+          }
+        },
+        "count": {}
+      },
+      "export": {},
+      "unpostedprocurement": {
+        "{id}": {},
+        "{parentId}": {
+          "taxableLevels": {
+            "{id}": {},
+            "count": {}
+          }
+        },
+        "count": {}
+      },
+      "batches": {
+        "{id}": {
+          "export": {}
+        },
+        "{parentId}": {
+          "entries": {
+            "{id}": {},
+            "count": {}
+          }
+        },
+        "count": {}
+      },
+      "unpostedexpenses": {
+        "{id}": {},
+        "{parentId}": {
+          "taxableLevels": {
+            "{id}": {},
+            "count": {}
+          }
+        },
+        "count": {}
+      }
+    },
+    "agreementrecap": {
+      "{id}": {},
+      "": {}
+    },
+    "deliveryMethods": {
+      "{id}": {},
+      "count": {}
+    },
+    "glAccounts": {
+      "count": {},
+      "mappedTypes": {
+        "count": {}
+      },
+      "{id}": {}
+    },
+    "info": {
+      "taxIntegrations": {
+        "{id}": {},
+        "count": {}
+      },
+      "currencyCodes": {
+        "{id}": {},
+        "count": {}
+      },
+      "invoice": {
+        "{id}": {}
+      }
+    },
+    "glCaptions": {
+      "{id}": {},
+      "count": {}
+    },
+    "batchSetups": {
+      "{id}": {},
+      "count": {}
+    },
+    "invoices": {
+      "{id}": {
+        "pdf": {}
+      },
+      "{parentId}": {
+        "routings": {
+          "{id}": {},
+          "count": {}
+        },
+        "payments": {
+          "{id}": {}
+        },
+        "glEntries": {
+          "{id}": {},
+          "": {}
+        }
+      },
+      "count": {}
+    },
+    "invoiceEmailTemplates": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "closedInvoices": {
+      "{id}": {}
+    },
+    "glpaths": {
+      "{id}": {},
+      "count": {}
+    },
+    "accountingPackageSetup": {
+      "{id}": {},
+      "count": {}
+    },
+    "accountingPackages": {
+      "{id}": {},
+      "count": {}
+    },
+    "agreementTypes": {
+      "{parentId}": {
+        "workTypeExclusions": {
+          "{id}": {},
+          "count": {}
+        },
+        "workroles": {
+          "count": {},
+          "{id}": {},
+          "info": {
+            "{id}": {},
+            "count": {}
+          }
+        },
+        "workRoleExclusions": {
+          "{id}": {},
+          "count": {}
+        },
+        "boardDefaults": {
+          "{id}": {},
+          "count": {}
+        },
+        "worktypes": {
+          "{id}": {},
+          "count": {}
+        }
+      }
+    },
+    "taxCodes": {
+      "count": {},
+      "{parentId}": {
+        "workRoleExemptions": {
+          "{id}": {},
+          "count": {}
+        },
+        "taxCodeXRefs": {
+          "{id}": {},
+          "count": {}
+        },
+        "expenseTypeExemptions": {
+          "{id}": {},
+          "count": {}
+        },
+        "productTypeExemptions": {
+          "{id}": {},
+          "count": {}
+        },
+        "taxCodeLevels": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "info": {
+        "count": {}
+      },
+      "{id}": {
+        "copy": {},
+        "usages": {
+          "list": {}
+        },
+        "info": {}
+      },
+      "{grandparentId}": {
+        "workRoleExemptions": {
+          "{parentId}": {
+            "taxableWorkRoleLevels": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        },
+        "expenseTypeExemptions": {
+          "{parentId}": {
+            "taxableExpenseTypeLevels": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        },
+        "productTypeExemptions": {
+          "{parentId}": {
+            "taxableProductTypeLevels": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        },
+        "taxCodeXRefs": {
+          "{parentId}": {
+            "taxableXRefLevels": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        }
+      }
+    },
+    "billingSetups": {
+      "{id}": {
+        "info": {}
+      },
+      "{parentId}": {
+        "routings": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "billingTerms": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "invoiceTemplates": {
+      "{id}": {
+        "usages": {
+          "list": {}
+        }
+      },
+      "count": {}
+    },
+    "billingStatuses": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "taxIntegrations": {
+      "{id}": {},
+      "count": {}
+    },
+    "companyFinance": {
+      "count": {},
+      "{id}": {},
+      "": {}
+    },
+    "billingCycles": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "invoiceTemplateSetups": {
+      "{id}": {},
+      "count": {}
+    },
+    "agreements": {
+      "{id}": {
+        "applicationParameters": {
+          "{podId}": {}
+        },
+        "recurringParameters": {
+          "{podId}": {}
+        },
+        "quickAccess": {
+          "count": {}
+        },
+        "invoice": {}
+      },
+      "types": {
+        "count": {},
+        "{id}": {
+          "info": {},
+          "usages": {
+            "list": {}
+          }
+        },
+        "info": {
+          "count": {}
+        }
+      },
+      "types{id}": {
+        "copy": {}
+      },
+      "{parentId}": {
+        "worktypes": {
+          "{id}": {},
+          "count": {}
+        },
+        "copy": {},
+        "boardDefaults": {
+          "{id}": {},
+          "count": {}
+        },
+        "workTypeExclusions": {
+          "{id}": {},
+          "count": {}
+        },
+        "adjustments": {
+          "{id}": {},
+          "count": {}
+        },
+        "workroles": {
+          "{id}": {},
+          "count": {}
+        },
+        "additions": {
+          "{id}": {},
+          "count": {}
+        },
+        "sites": {
+          "{id}": {},
+          "count": {}
+        },
+        "workRoleExclusions": {
+          "{id}": {},
+          "count": {}
+        },
+        "configurations": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "currencies": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    }
+  },
+  "project": {
+    "boards": {
+      "{grandparentId}": {
+        "teams": {
+          "{parentId}": {
+            "members": {
+              "{id}": {}
+            }
+          }
+        }
+      },
+      "{parentId}": {
+        "teams": {
+          "count": {},
+          "{id}": {
+            "info": {
+              "count": {}
+            }
+          },
+          "info": {}
+        },
+        "kanbanSettings": {
+          "{id}": {}
+        }
+      }
+    },
+    "{parentId}": {
+      "billingRates": {
+        "{id}": {},
+        "count": {}
+      }
+    },
+    "phaseStatuses": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {}
+    },
+    "projectTypes": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "securityRoles": {
+      "{id}": {
+        "info": {}
+      },
+      "{parentId}": {
+        "settings": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {}
+    },
+    "ticketNote": {
+      "{id}": {
+        "markAs": {
+          "": {}
+        }
+      }
+    },
+    "statuses": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "statusIndicators": {
+      "{id}": {},
+      "count": {}
+    },
+    "projectTemplates": {
+      "{parentId}": {
+        "projectTemplateTickets": {
+          "{id}": {},
+          "count": {}
+        },
+        "projectTemplatePhases": {
+          "{id}": {}
+        }
+      },
+      "count": {},
+      "{id}": {
+        "workplan": {}
+      },
+      "createFromProject": {
+        "{id}": {}
+      },
+      "{grandParentId}": {
+        "projectTemplateTickets": {
+          "{parentId}": {
+            "tasks": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        }
+      },
+      "": {}
+    },
+    "tickets": {
+      "{id}": {},
+      "{parentId}": {
+        "allNotes": {},
+        "tasks": {
+          "{id}": {},
+          "count": {}
+        },
+        "convert": {},
+        "notes": {
+          "{id}": {},
+          "count": {}
+        },
+        "scheduleentries": {
+          "count": {}
+        },
+        "activities": {
+          "count": {}
+        },
+        "documents": {
+          "count": {}
+        },
+        "timeentries": {
+          "count": {}
+        },
+        "products": {
+          "count": {}
+        },
+        "configurations": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "search": {}
+    },
+    "billingRates": {
+      "{parentId}": {
+        "billingRates": {
+          "{id}": {}
+        }
+      }
+    },
+    "projects": {
+      "{id}": {
+        "projectWorkplan": {}
+      },
+      "{parentId}": {
+        "notes": {
+          "{id}": {},
+          "count": {}
+        },
+        "applyTemplates": {},
+        "applyTemplate": {
+          "{id}": {}
+        },
+        "teamMembers": {
+          "{id}": {},
+          "count": {}
+        },
+        "phases": {
+          "{id}": {},
+          "count": {}
+        },
+        "contacts": {
+          "{id}": {}
+        }
+      },
+      "count": {}
+    }
+  },
+  "expense": {
+    "types": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {}
+    },
+    "classifications": {
+      "{id}": {},
+      "count": {}
+    },
+    "paymentTypes": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {}
+    },
+    "info": {
+      "taxTypes": {
+        "{id}": {},
+        "count": {}
+      }
+    },
+    "reports": {
+      "{id}": {
+        "reject": {},
+        "submit": {},
+        "approve": {},
+        "reverse": {}
+      },
+      "{parentId}": {
+        "audits": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "entries": {
+      "{id}": {},
+      "{parentId}": {
+        "audits": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    }
+  },
+  "company": {
+    "portalSecuritySettings": {
+      "{id}": {},
+      "count": {}
+    },
+    "m365contact": {
+      "{id}": {},
+      "count": {}
+    },
+    "portalSecurityLevels": {
+      "{id}": {},
+      "count": {}
+    },
+    "management": {
+      "{id}": {
+        "executeManagedItSync": {},
+        "logs": {},
+        "log": {
+          "download": {}
+        }
+      },
+      "{parentId}": {
+        "managementReportNotifications": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "teamRoles": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "companies": {
+      "{parentId}": {
+        "typeAssociations": {
+          "{id}": {},
+          "count": {}
+        },
+        "teams": {
+          "{id}": {},
+          "count": {}
+        },
+        "groups": {
+          "{id}": {},
+          "count": {}
+        },
+        "notes": {
+          "{id}": {},
+          "count": {}
+        },
+        "managementReportNotifications": {
+          "{id}": {},
+          "count": {}
+        },
+        "customStatusNotes": {
+          "{id}": {},
+          "count": {}
+        },
+        "managementReportSetup": {
+          "{id}": {}
+        },
+        "surveys": {
+          "count": {}
+        },
+        "sites": {
+          "count": {},
+          "{id}": {
+            "info": {},
+            "usages": {
+              "list": {}
+            }
+          },
+          "info": {
+            "count": {}
+          }
+        },
+        "tracks": {
+          "{id}": {},
+          "count": {}
+        },
+        "managementSummaryReports": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "types": {
+        "{id}": {
+          "usages": {
+            "list": {}
+          }
+        },
+        "count": {}
+      },
+      "statuses": {
+        "{id}": {
+          "usages": {
+            "list": {}
+          }
+        },
+        "count": {}
+      },
+      "{id}": {
+        "merge": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "types": {
+          "{id}": {},
+          "count": {}
+        },
+        "count": {}
+      },
+      "default": {}
+    },
+    "contacts": {
+      "info": {
+        "count": {}
+      },
+      "validatePortalCredentials": {},
+      "{parentId}": {
+        "tracks": {
+          "{id}": {},
+          "count": {}
+        },
+        "typeAssociations": {
+          "{id}": {},
+          "count": {}
+        },
+        "communications": {
+          "{id}": {},
+          "count": {}
+        },
+        "notes": {
+          "{id}": {},
+          "count": {}
+        },
+        "groups": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "requestPassword": {},
+      "types": {
+        "count": {
+          "info": {}
+        },
+        "{id}": {
+          "info": {}
+        },
+        "info": {}
+      },
+      "{id}": {
+        "usages": {
+          "list": {}
+        },
+        "portalSecurity": {},
+        "image": {},
+        "info": {}
+      },
+      "departments": {
+        "count": {},
+        "{id}": {
+          "info": {},
+          "usages": {
+            "list": {}
+          }
+        },
+        "info": {
+          "count": {}
+        }
+      },
+      "default": {},
+      "relationships": {
+        "{id}": {},
+        "count": {}
+      }
+    },
+    "configurations": {
+      "count": {},
+      "types": {
+        "count": {},
+        "{parentId}": {
+          "questions": {
+            "{id}": {},
+            "count": {}
+          }
+        },
+        "{id}": {
+          "info": {},
+          "usages": {
+            "list": {}
+          }
+        },
+        "copy": {},
+        "{grandparentId}": {
+          "questions": {
+            "{parentId}": {
+              "values": {
+                "{id}": {
+                  "usages": {
+                    "list": {}
+                  }
+                },
+                "count": {}
+              }
+            }
+          }
+        }
+      },
+      "{id}": {
+        "quickAccess": {
+          "count": {}
+        },
+        "changeType": {}
+      },
+      "bulk": {},
+      "statuses": {
+        "count": {},
+        "{id}": {
+          "info": {},
+          "usages": {
+            "list": {}
+          }
+        },
+        "info": {
+          "count": {}
+        }
+      }
+    },
+    "communicationTypes": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "managementItSolutions": {
+      "{id}": {
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "managementProducts": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "managementBackups": {
+      "{id}": {},
+      "count": {}
+    },
+    "tracks": {
+      "{id}": {},
+      "{parentId}": {
+        "actions": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "marketDescriptions": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "noteTypes": {
+      "count": {
+        "info": {}
+      },
+      "{id}": {
+        "info": {}
+      },
+      "info": {}
+    },
+    "contactTypeAssociations": {
+      "{id}": {},
+      "count": {}
+    },
+    "companyPickerItems": {
+      "count": {},
+      "clear": {},
+      "{id}": {}
+    },
+    "entityTypes": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "portalConfigurations": {
+      "{id}": {},
+      "copy": {},
+      "{parentId}": {
+        "opportunitySetups": {
+          "{id}": {}
+        },
+        "invoiceSetups": {
+          "{id}": {
+            "testTransaction": {}
+          },
+          "count": {}
+        },
+        "serviceSetups": {
+          "{id}": {},
+          "count": {}
+        },
+        "projectSetups": {
+          "{id}": {},
+          "count": {}
+        },
+        "passwordEmailSetups": {
+          "{id}": {}
+        }
+      },
+      "invoiceSetup": {
+        "paymentProcessors": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "managedDevicesIntegrations": {
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "crossReferences": {
+          "{id}": {},
+          "count": {}
+        },
+        "logins": {
+          "{id}": {},
+          "count": {}
+        },
+        "notifications": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "m365contactsync": {
+      "{id}": {
+        "property": {}
+      },
+      "property": {
+        "count": {},
+        "excluded": {},
+        "included": {},
+        "": {}
+      }
+    },
+    "contact": {
+      "types": {
+        "{id}": {
+          "usages": {
+            "list": {}
+          }
+        }
+      }
+    },
+    "addressFormats": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "expenseTypes": {
+      "info": {
+        "count": {}
+      }
+    },
+    "ownershipTypes": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "paymentTypes": {
+      "info": {
+        "count": {}
+      }
+    },
+    "countries": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "companyTypeAssociations": {
+      "{id}": {},
+      "count": {}
+    },
+    "states": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    }
+  },
+  "time": {
+    "info": {
+      "chargeCodeExpenseTypes": {
+        "count": {}
+      }
+    },
+    "activitystopwatches": {
+      "{id}": {},
+      "count": {}
+    },
+    "changelogs": {},
+    "workTypes": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "workRoles": {
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "locations": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "schedulestopwatches": {
+      "{id}": {},
+      "count": {}
+    },
+    "timePeriodSetups": {
+      "{id}": {},
+      "default": {},
+      "{parentId}": {
+        "periods": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "chargeCodes": {
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "expenseTypes": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "accruals": {
+      "{id}": {},
+      "{parentId}": {
+        "details": {
+          "count": {},
+          "{id}": {},
+          "": {}
+        }
+      },
+      "count": {}
+    },
+    "entries": {
+      "{id}": {},
+      "{parentId}": {
+        "audits": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "defaults": {},
+      "count": {}
+    },
+    "ticketstopwatches": {
+      "{id}": {},
+      "count": {}
+    },
+    "sheets": {
+      "{id}": {
+        "reject": {},
+        "submit": {},
+        "approve": {},
+        "reverse": {}
+      },
+      "{parentId}": {
+        "audits": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    }
+  },
+  "system": {
+    "inOutBoards": {
+      "{id}": {},
+      "count": {}
+    },
+    "departments": {
+      "{id}": {
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "locations": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "ePayConfigurations": {
+      "{id}": {},
+      "count": {}
+    },
+    "myMembers": {
+      "info": {}
+    },
+    "googleemailsetup": {
+      "count": {},
+      "{id}": {
+        "testConnection": {}
+      },
+      "": {}
+    },
+    "skillCategories": {
+      "{id}": {},
+      "count": {}
+    },
+    "callbacks": {
+      "{id}": {},
+      "count": {}
+    },
+    "setupScreens": {
+      "{id}": {},
+      "count": {}
+    },
+    "mySecurity": {
+      "customizeItems": {
+        "": {}
+      }
+    },
+    "reports": {
+      "{reportName}": {
+        "columns": {},
+        "count": {}
+      }
+    },
+    "contactsync": {
+      "monitoring": {
+        "count": {},
+        "{id}": {},
+        "type": {
+          "{id}": {}
+        },
+        "notificationtype": {
+          "": {}
+        },
+        "": {}
+      }
+    },
+    "securityroles": {
+      "{id}": {
+        "info": {}
+      },
+      "{parentId}": {
+        "settings": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "userDefinedFields": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "m365contactsync": {
+      "info": {
+        "count": {}
+      },
+      "{id}": {
+        "info": {}
+      }
+    },
+    "parsingTypes": {
+      "{id}": {},
+      "count": {}
+    },
+    "ssoUsers": {
+      "count": {},
+      "{externalId}": {}
+    },
+    "marketplaceimport": {
+      "getdefinition": {
+        "{id}": {}
+      },
+      "import": {}
+    },
+    "portalReports": {
+      "{id}": {},
+      "count": {}
+    },
+    "documents": {
+      "count": {},
+      "{id}": {
+        "thumbnail": {},
+        "download": {}
+      },
+      "uploadsample": {}
+    },
+    "allowedorigins": {
+      "{id}": {},
+      "count": {}
+    },
+    "menuentries": {
+      "{id}": {
+        "image": {}
+      },
+      "{parentId}": {
+        "locations": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "integratorTags": {
+      "{id}": {},
+      "count": {}
+    },
+    "info": {
+      "members": {
+        "count": {},
+        "{id}": {},
+        "{memberIdentifier:regex(^(types. |(": {}
+      },
+      "locales": {
+        "{id}": {},
+        "count": {}
+      },
+      "standardNotes": {
+        "{id}": {},
+        "count": {}
+      },
+      "links": {
+        "{id}": {
+          "resolveurl": {}
+        },
+        "count": {}
+      },
+      "departmentlocations": {
+        "{id}": {},
+        "count": {}
+      },
+      "departments": {
+        "{id}": {},
+        "count": {}
+      },
+      "locations": {
+        "{id}": {},
+        "count": {}
+      },
+      "personas": {
+        "{id}": {},
+        "count": {}
+      }
+    },
+    "customReports": {
+      "{id}": {},
+      "{parentId}": {
+        "parameters": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "workflowActions": {
+      "{parentId}": {
+        "automateParameters": {
+          "{id}": {},
+          "count": {}
+        }
+      }
+    },
+    "importMassMaintenance": {
+      "{id}": {}
+    },
+    "allowedfiletypes": {
+      "count": {},
+      "{id}": {},
+      "": {}
+    },
+    "members": {
+      "{memberIdentifier}": {
+        "tokens": {}
+      },
+      "withSso": {},
+      "{parentId}": {
+        "personas": {
+          "{id}": {},
+          "count": {}
+        },
+        "accruals": {
+          "{id}": {},
+          "count": {}
+        },
+        "mycertifications": {
+          "{id}": {},
+          "count": {}
+        },
+        "delegations": {
+          "{id}": {},
+          "count": {}
+        },
+        "certifications": {
+          "{id}": {},
+          "count": {}
+        },
+        "managedDeviceAccounts": {
+          "bulk": {}
+        },
+        "skills": {
+          "{id}": {},
+          "count": {}
+        },
+        "notificationSettings": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "types": {
+        "count": {},
+        "{id}": {
+          "info": {}
+        },
+        "info": {
+          "count": {}
+        }
+      },
+      "calendarsync": {},
+      "{id}": {
+        "submit": {},
+        "unlinkSsoUser": {},
+        "unusedTimeSheets": {},
+        "linkSsoUser": {},
+        "deactivate": {},
+        "usages": {
+          "list": {}
+        },
+        "image": {}
+      },
+      "{ssoid}": {
+        "deactivateIamMember": {}
+      },
+      "{memberIdentifier:regex(^(types. |(": {}
+    },
+    "notificationRecipients": {
+      "{id}": {},
+      "count": {}
+    },
+    "managementNetworkSecurities": {
+      "{id}": {
+        "testCredentials": {}
+      },
+      "count": {}
+    },
+    "cwTimeZones": {
+      "{id}": {},
+      "count": {}
+    },
+    "directionalSyncs": {
+      "info": {
+        "count": {}
+      },
+      "{id}": {
+        "info": {}
+      }
+    },
+    "inOutTypes": {
+      "count": {
+        "info": {}
+      },
+      "{id}": {
+        "info": {}
+      },
+      "info": {}
+    },
+    "emailTokens": {
+      "{id}": {},
+      "count": {}
+    },
+    "ldapConfigurations": {
+      "count": {},
+      "testLink": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "connectwisehostedsetups": {
+      "{id}": {},
+      "count": {}
+    },
+    "office365": {
+      "emailSetups": {
+        "{id}": {
+          "testConnection": {},
+          "authorize": {},
+          "getEmails": {
+            "": {}
+          }
+        },
+        "count": {}
+      },
+      "application": {
+        "info": {
+          "count": {}
+        },
+        "{id}": {
+          "info": {}
+        }
+      }
+    },
+    "surveys": {
+      "count": {},
+      "{parentId}": {
+        "questions": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "info": {
+        "count": {}
+      },
+      "{id}": {
+        "info": {},
+        "copy": {}
+      },
+      "{grandparentId}": {
+        "questions": {
+          "{parentId}": {
+            "values": {
+              "{id}": {}
+            }
+          }
+        }
+      }
+    },
+    "experiments": {
+      "{id}": {},
+      "count": {}
+    },
+    "kpis": {
+      "{id}": {},
+      "count": {}
+    },
+    "links": {
+      "{id}": {},
+      "count": {}
+    },
+    "integratorlogins": {
+      "{id}": {},
+      "count": {}
+    },
+    "imaps": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "authAnvils": {
+      "count": {},
+      "testConnection": {},
+      "{id}": {}
+    },
+    "timeZoneSetups": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "myCompany": {
+      "reportingServices": {
+        "{id}": {
+          "testConnection": {}
+        }
+      },
+      "crm": {
+        "count": {},
+        "{id}": {
+          "info": {}
+        },
+        "info": {
+          "count": {}
+        }
+      },
+      "services": {
+        "{id}": {}
+      },
+      "other": {
+        "{id}": {},
+        "count": {}
+      },
+      "info": {
+        "services": {
+          "{id}": {}
+        }
+      },
+      "corporateStructureLevels": {
+        "{id}": {},
+        "count": {}
+      },
+      "documents": {
+        "{id}": {}
+      },
+      "corporateStructure": {
+        "count": {},
+        "{id}": {
+          "info": {}
+        },
+        "info": {
+          "count": {}
+        }
+      },
+      "timeExpense": {
+        "{id}": {},
+        "count": {}
+      }
+    },
+    "emailExclusions": {
+      "{id}": {},
+      "count": {}
+    },
+    "documentTypes": {
+      "info": {
+        "count": {}
+      },
+      "{id}": {
+        "info": {}
+      }
+    },
+    "standardNotes": {
+      "{id}": {},
+      "count": {}
+    },
+    "connectWiseHostedScreens": {
+      "{id}": {},
+      "count": {}
+    },
+    "emailConnectors": {
+      "count": {},
+      "{parentId}": {
+        "parsingStyles": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "info": {
+        "count": {}
+      },
+      "{id}": {
+        "info": {}
+      },
+      "{grandparentId}": {
+        "parsingStyles": {
+          "{parentId}": {
+            "parsingRules": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        }
+      }
+    },
+    "kpiCategories": {
+      "{id}": {},
+      "count": {}
+    },
+    "osgradeweights": {
+      "{id}": {},
+      "count": {}
+    },
+    "apiMembers": {
+      "count": {},
+      "{id}": {},
+      "default": {}
+    },
+    "myAccount": {
+      "{id}": {},
+      "{parentId}": {
+        "delegations": {
+          "{id}": {},
+          "count": {}
+        },
+        "skills": {
+          "{id}": {},
+          "count": {}
+        }
+      }
+    },
+    "membertemplates": {
+      "count": {},
+      "{id}": {},
+      "": {}
+    },
+    "audittrail": {
+      "count": {}
+    },
+    "parsingVariables": {
+      "{id}": {},
+      "count": {}
+    },
+    "fileuploadsettings": {
+      "count": {},
+      "{id}": {},
+      "": {}
+    },
+    "autoSyncTime": {
+      "{id}": {},
+      "count": {}
+    },
+    "onPremiseSearchSetting": {
+      "count": {},
+      "{id}": {},
+      "": {}
+    },
+    "workflows": {
+      "{parentId}": {
+        "events": {
+          "{id}": {
+            "test": {},
+            "copy": {}
+          },
+          "count": {}
+        },
+        "triggers": {
+          "count": {}
+        },
+        "notifyTypes": {
+          "count": {},
+          "{id}": {
+            "info": {}
+          },
+          "info": {
+            "count": {}
+          }
+        },
+        "attachments": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "tableTypes": {
+        "count": {},
+        "{id}": {
+          "info": {}
+        },
+        "info": {
+          "count": {}
+        }
+      },
+      "count": {},
+      "{id}": {
+        "copy": {}
+      },
+      "{grandparentId}": {
+        "events": {
+          "{parentId}": {
+            "actions": {
+              "{id}": {},
+              "count": {}
+            }
+          }
+        },
+        "triggers": {
+          "{parentId}": {
+            "options": {
+              "count": {}
+            }
+          }
+        }
+      },
+      "userdefinedfields": {
+        "actions": {
+          "{parentId}": {}
+        },
+        "events": {
+          "{grandparentId}": {}
+        },
+        "events{grandparentId}": {
+          "actions": {
+            "{parentId}": {}
+          }
+        },
+        "{id}": {}
+      }
+    },
+    "settings": {
+      "{id}": {},
+      "count": {}
+    },
+    "bundles": {
+      "count": {}
+    },
+    "locations": {
+      "{id}": {
+        "usages": {
+          "list": {}
+        }
+      },
+      "{parentId}": {
+        "departments": {
+          "{id}": {},
+          "count": {}
+        },
+        "workRoles": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "ssoConfigurations": {
+      "{id}": {
+        "registertoken": {},
+        "submitmembers": {}
+      },
+      "count": {}
+    },
+    "quoteLinkSetup": {
+      "count": {},
+      "testConnection": {},
+      "{id}": {}
+    },
+    "reportCards": {
+      "{id}": {
+        "info": {}
+      },
+      "{parentId}": {
+        "details": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "info": {
+        "count": {}
+      }
+    },
+    "todayPageCategories": {
+      "{id}": {},
+      "count": {}
+    },
+    "certifications": {
+      "{id}": {
+        "usages": {
+          "list": {}
+        }
+      },
+      "count": {}
+    },
+    "BillableOptions": {
+      "info": {}
+    },
+    "skills": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    }
+  },
+  "sales": {
+    "salesTeams": {
+      "{id}": {},
+      "{parentId}": {
+        "members": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {}
+    },
+    "commissions": {
+      "{id}": {
+        "usages": {
+          "list": {}
+        }
+      },
+      "count": {}
+    },
+    "stages": {
+      "count": {},
+      "{id}": {
+        "info": {},
+        "usages": {
+          "list": {}
+        }
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "schedule": {
+      "holidaylists": {
+        "info": {
+          "count": {}
+        },
+        "{parentId}": {
+          "holidays": {
+            "info": {
+              "count": {}
+            }
+          }
+        }
+      }
+    },
+    "probabilities": {
+      "count": {},
+      "{id}": {
+        "info": {}
+      },
+      "info": {
+        "count": {}
+      }
+    },
+    "roles": {
+      "{id}": {},
+      "count": {}
+    },
+    "opportunities": {
+      "{parentId}": {
+        "forecast": {
+          "count": {},
+          "copy": {
+            "{id}": {}
+          },
+          "{id}": {},
+          "": {}
+        },
+        "team": {
+          "{id}": {},
+          "count": {}
+        },
+        "contacts": {
+          "{id}": {},
+          "count": {}
+        },
+        "notes": {
+          "{id}": {},
+          "count": {}
+        }
+      },
+      "count": {},
+      "types": {
+        "count": {},
+        "{id}": {
+          "info": {},
+          "usages": {
+            "list": {}
+          }
+        },
+        "info": {
+          "count": {}
+        }
+      },
+      "statuses": {
+        "count": {},
+        "{id}": {
+          "info": {},
+          "usages": {
+            "list": {}
+          }
+        },
+        "info": {
+          "count": {}
+        }
+      },
+      "{id}": {
+        "convertToProject": {},
+        "convertToServiceTicket": {},
+        "convertToSalesOrder": {},
+        "convertToAgreement": {}
+      },
+      "ratings": {
+        "count": {},
+        "{id}": {
+          "info": {}
+        },
+        "info": {
+          "count": {}
+        }
+      },
+      "default": {},
+      "conversions": {
+        "{id}": {}
+      }
+    },
+    "activities": {
+      "count": {},
+      "types": {
+        "{id}": {
+          "usages": {
+            "list": {}
+          }
+        },
+        "count": {}
+      },
+      "{id}": {},
+      "statuses": {
+        "count": {},
+        "{id}": {
+          "info": {}
+        },
+        "info": {
+          "count": {}
+        }
+      }
+    },
+    "quotas": {
+      "{id}": {},
+      "count": {}
+    },
+    "orders": {
+      "{id}": {
+        "convertToServiceTicket": {},
+        "financialrecap": {}
+      },
+      "conversions": {
+        "{id}": {}
+      },
+      "{parentId}": {
+        "lineitems": {
+          "count": {},
+          "{id}": {},
+          "": {}
+        }
+      },
+      "count": {},
+      "statuses": {
+        "{id}": {
+          "info": {},
+          "usages": {
+            "list": {}
+          }
+        },
+        "{parentId}": {
+          "emailtemplates": {
+            "count": {},
+            "{id}": {},
+            "": {}
+          },
+          "notifications": {
+            "{id}": {},
+            "count": {}
+          }
+        },
+        "count": {},
+        "info": {
+          "count": {}
+        }
+      }
+    },
+    "service": {
+      "priority": {
+        "info": {
+          "count": {}
+        }
+      }
+    }
+  },
+  "configurations": {
+    "types": {
+      "info": {
+        "count": {}
+      },
+      "{parentId}": {
+        "questions": {
+          "info": {
+            "count": {}
+          },
+          "{id}": {
+            "info": {}
+          }
+        }
+      },
+      "{grandparentId}": {
+        "questions": {
+          "{parentId}": {
+            "values": {
+              "info": {
+                "count": {}
+              },
+              "{id}": {
+                "info": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
