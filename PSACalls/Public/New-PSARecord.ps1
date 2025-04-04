@@ -1,9 +1,9 @@
-Function Set-PSARecord {
+Function New-PSARecord {
     [CmdletBinding()]
     param (
         [ArgumentCompleter({
                 param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-                Get-ValidPSAEndpoint -type $wordToComplete -method 'patch'
+                Get-ValidPSAEndpoint -type $wordToComplete -method 'post'
             })]
         [string]$type,
         [Parameter(ValueFromPipelineByPropertyName)]
@@ -30,11 +30,11 @@ Function Set-PSARecord {
             grandparentId = $grandparentId
         }
 
-        $uri = Get-PSARequestURI @uriParams
+        $uri = Get-PSARequestURI @uriParams -noPagination
 
         $output = [System.Collections.Generic.List[Object]]::new()
 
-        $response = Invoke-PSARequest -uri $uri -method 'PATCH' -body $body
+        $response = Invoke-PSARequest -uri $uri -method 'POST' -body $body
         $content = $response.content | ConvertFrom-Json -depth 10
         foreach ( $record in $content ) {
             $output.add($record)
@@ -45,11 +45,10 @@ Function Set-PSARecord {
         } else {
             Write-Output $output
         }
-
     }
 
     end {
-        Write-Verbose "Set-PSARecord Complete."
+        Write-Verbose "Get-PSARecord Complete."
     }
 }
 

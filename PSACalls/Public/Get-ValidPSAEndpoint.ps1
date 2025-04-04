@@ -5,6 +5,7 @@ Function Find-ValidPath {
         $parent = '',
         $method
     )
+    Write-Verbose "Searching for valid paths"
 
     $validPaths = [System.Collections.Generic.List[string]]::new()
 
@@ -33,6 +34,8 @@ Function Get-ValidPSAEndpoint {
         [string]$method = 'get',
         [string]$schemaPath = (Split-Path -parent $PSScriptRoot) + '/schemaTree.json'
     )
+
+    Write-Verbose "Searching for endpoint: $type"
 
     # clean the input, no quotes or leading slashes
     $type = $type -replace "'", ''

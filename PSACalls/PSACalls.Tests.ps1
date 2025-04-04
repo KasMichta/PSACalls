@@ -63,6 +63,7 @@ Describe "'<_>' Function Tests" -ForEach $functionPaths {
     }
 
     BeforeAll {
+        Import-Module -Name $modulePath -Force -ErrorAction Stop
         $functionName = $_.BaseName
         $functionPath = $_
     }

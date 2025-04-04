@@ -2,56 +2,65 @@ Function Get-PSARecord {
     [CmdletBinding()]
     param (
         [ArgumentCompleter({
-            param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
+                param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
                 Get-ValidPSAEndpoint -type $wordToComplete -method 'get'
             })]
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
         [string]$type,
         [Parameter(ValueFromPipelineByPropertyName)]
-        [Alias('id')]
-        [string]$parentId,
-        [string]$recordId,
+        $id,
+        [Parameter(ValueFromPipelineByPropertyName)]
+        $parentId,
+        [Parameter(ValueFromPipelineByPropertyName)]
+        $grandparentId,
         [array]$fields,
-        [hashtable]$conditions,
+        $conditions,
         [switch]$asJSON = $false
     )
 
     begin {
-
-        Write-Verbose "Using API Path:`n`tURI:`t{BaseURI}$type"
-
+        Write-Verbose "`n`tType:`t$type"
     }
 
     process {
-        $query = $($type -replace "{parentId}", $parentId -replace "{id}", $recordId)
-
-        if ( $conditions -and
-            !$conditions.ContainsKey('conditions') -and
-            !$conditions.ContainsKey('childconditions') -and
-            !$conditions.ContainsKey('customfieldconditions')) {
-            Write-Error "parameter '-conditions' expecting [hashtable] containing at least one of the following keys: conditions, childconditions, customfieldconditions`n`tExample: ...-conditions @{conditions = 'id=1234'}"
-            break
+        if ( $conditions ) {
+            if ( ($conditions.GetType().Name -eq 'Hashtable')  -and
+                !$conditions.ContainsKey('conditions') -and
+                !$conditions.ContainsKey('childconditions') -and
+                !$conditions.ContainsKey('customfieldconditions')) {
+                Write-Error "parameter '-conditions' expecting [hashtable] containing at least one of the following keys: conditions, childconditions, customfieldconditions`n`tExample: ...-conditions @{conditions = 'id=1234'}"
+                break
+            }
         }
 
         $uriParams = @{
-            query = $query
+            query = $type
             fields = $fields
             conditions = $conditions
+            id = $id
+            parentId = $parentId
+            grandparentId = $grandparentId
         }
 
         $uri = Get-PSARequestURI @uriParams
-        Write-Verbose "Sending Get Request to path:`n`tURI:`t$uri"
 
         $output = [System.Collections.Generic.List[Object]]::new()
 
         do {
-            $response = Invoke-PSARequest -uri $uri -method 'GET'
+            $response = Try {
+                Invoke-PSARequest -uri $uri -method 'GET' -ErrorAction Stop
+            } Catch {
+                Write-Error $_
+                Break
+            }
             $content = $response.content | ConvertFrom-Json -depth 10
             foreach ( $record in $content ) {
                 $output.add($record)
             }
             if ( $response.headers.ContainsKey('Link') ) {
                 $next = $response.headers.link | Out-String
-                Write-Verbose "Next Link:`n`t$next"
+                Write-Verbose "`n`tNext Link:`t$next"
             } else {
                 $next = $null
             }
@@ -61,7 +70,11 @@ Function Get-PSARecord {
             }
         } while ( $nextExists )
 
-        Write-Output $output
+        if ( $asJSON ) {
+            Write-Output ($output | ConvertTo-Json -Depth 100)
+        } else {
+            Write-Output $output
+        }
     }
 
     end {

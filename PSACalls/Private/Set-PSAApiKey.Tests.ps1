@@ -4,6 +4,5 @@ BeforeAll {
     . "$here/$sut"
 }
 
-Describe "'Set-PSARecord' Function Tests" {
+Describe "'Set-PSAApiKey' Function Tests" {
 }
-

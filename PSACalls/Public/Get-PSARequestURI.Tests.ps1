@@ -4,6 +4,6 @@ BeforeAll {
     . "$here/$sut"
 }
 
-Describe "'Set-PSARecord' Function Tests" {
+Describe "'Get-PSARequestURI' Function Tests" {
 }
 
